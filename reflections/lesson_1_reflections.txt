@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer: Because we had a working title game before the changes, we needed to see what caused the error
+
+How could having easy access to the entire history of a file make you a more efficent programmer in the long term?
+
+Answer: As far as finding bugs, you want to see the chagnes in the life-cycle of the software project; in order to determine what changes are causes errors. As far as finding logic errors, this may allow you to see what changes caused different outputs.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having version automatically saved, like Google docs does?
+
+Answer: Pros - You can make sure what you send to your project members is working and progressive. Cons - If you forget to commit and lose work, that could be hours of coding for nothing.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each files separately?
+
+Answer: Because most programming teams what every bit of the project to work on once it has been committed to the reponsitory. 
+
+How can you use the commands git log and git differ to view the history of files?
+
+Answer: git log can use git diff to display each change in the history. git log is for displaying a set of revisions, potentially including the diff between each revision and its parent, while git diff is used for displaying the difference between any two revisions in your repository.
+git diff can also be used to between the current working copy and the staging area (also know as the "index"), and diffs between the staging area and a revision in your repository, while git log will only every show committed code.
+
+How might using version control make you more confident to make changes that could break something?
+
+Answer:	You can make changes without the worry of going back to a working revision of the code. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer: Creating a software project that has execessive amount of code with other programmers. 
+
+How could having easy access to the entire history of a file make you more effcient programmer in the long term?
+
+Answer: You may need to go back to a previous version of the code that had certain attributes and behaviors that were deleted
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Answer: You know exactly what needs to be added, and what needs to be to be removed. You also have control on the separation of different versions of the project.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer: Because in a software development project, most engineers practice a Single File Purpose approach in creating software. Therefore; git allows each file to be in one commit because they all call each other during execution.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Answer: Use git log to obtain the commit id a version of the project. git diff to see what has been added and what has been deleted to the code.
+
+How might using version control make you more confident to make changes that could break something?
+
+Answer: The fact that we can always go back to a previous working version.
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Answer: This command will turn a directory into a Git repository. A repository is where we can make commits and use the full features of the version control.  
+
+
+
+
+
+
