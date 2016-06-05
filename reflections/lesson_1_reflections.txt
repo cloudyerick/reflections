@@ -51,6 +51,9 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Answer: This command will turn a directory into a Git repository. A repository is where we can make commits and use the full features of the version control.  
 
+How is the staging area different from the working directory and the repository?
+
+Answer: The staging area allow the programmer to moves files individual to this area to be prepared to the commit. 
 
 
 
