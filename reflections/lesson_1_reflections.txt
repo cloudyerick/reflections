@@ -53,9 +53,7 @@ Answer: This command will turn a directory into a Git repository. A repository i
 
 How is the staging area different from the working directory and the repository?
 
-Answer: The staging area allow the programmer to moves files individual to this area to be prepared to the commit. 
+Answer: The staging area allow the programmer to moves files individual to this area to be prepared to the commit.
 
-
-
-
+Answer: 
 
