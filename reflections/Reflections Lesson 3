@@ -2,3 +2,8 @@ When would you want to use a remote repository rather than keeping all your work
 
 Answer: Remote repositories are versions of your project that are hosted on a Cloud host or a network somewhere. This makes it easier for software
 engineers to easily working together on a project because they can push and pull commits of the working repository. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Answer: You might be working on a branch which is entirely diffferent than the master branch or any other branch on your remote repository. Therefore,
+you always want to pull manuel in order to not make changes to the branch you are currently working on you do not wish to have. 
