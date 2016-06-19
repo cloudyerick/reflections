@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Answer: Remote repositories are versions of your project that are hosted on a Cloud host or a network somewhere. This makes it easier for software
+engineers to easily working together on a project because they can push and pull commits of the working repository. 
